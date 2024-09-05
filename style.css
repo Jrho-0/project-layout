@@ -65,7 +65,22 @@ li {
     max-width: 40%;
     height: auto; /* Ensures the image scales properly */
   }
-  
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+  }
+
+  .box img {
+    width: 100%;
+  }
+
+  .box {
+    padding: 130px;
+    margin: 20px;
+    background-color: #2F2E43;
+  }
 
 
  .green{
